@@ -1,7 +1,7 @@
 body {
-    background-color: white;
+    background-color: black;
     text-align: left;
-    color: black;
+    color: white;
     margin-top: 0%;
     margin-bottom: 5%;
     margin-left: 0%;
@@ -10,32 +10,33 @@ body {
 }
 
 h1 {
-    background-color: green;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px white;
+}
+
+h2 {
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h2 {
-    text-align: center;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 h3 {
     text-align: center;
-    color: black;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-    color: black;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
     text-align: left;
-    color: black;
+    color: white;
     margin: 5%;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -44,6 +45,8 @@ div.wrapper {
     width: 100%;
     height: 15%;
     margin: 0 auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav{
@@ -54,20 +57,29 @@ nav{
 nav a {
     float: left;
     text-align: center;
-    color: black;
-    width: 25%;
+    color: white;
+    width: 20%;
 }
 
 ul {
     text-align: left;
-    color: black;
+    color: white;
     margin: 5%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 ol {
     text-align: left;
-    color: black;
+    color: white;
     margin: 5%;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    float: left;
+    margin: 10px;
+}
+
+hr {
+    border-bottom: 2px solid white;
 }
