@@ -83,3 +83,10 @@ img {
 hr {
     border-bottom: 2px solid white;
 }
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
